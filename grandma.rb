@@ -15,7 +15,6 @@
 
 
 def speak_to_grandma
-  puts "Say something to Grandma"
   input = gets.chomp 
   if input == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
