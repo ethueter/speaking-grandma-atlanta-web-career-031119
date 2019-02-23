@@ -15,8 +15,7 @@
 
 
 def speak_to_grandma
-  input = gets.chomp 
-  if input == "I LOVE YOU GRANDMA!"
+  if "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   end
 end
