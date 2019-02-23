@@ -15,5 +15,13 @@
 
 
 def speak_to_grandma
+  puts "Say something to Grandma"
   input = gets.chomp 
-  if input == ""
+  if input == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+    elsif input != input.upcase
+    puts "HUH?! SPEAK UP, SONNY!"
+  else input == input.upcase
+    puts "NO, NOT SINCE 1938!"
+  end
+end
