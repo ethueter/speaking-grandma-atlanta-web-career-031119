@@ -21,3 +21,5 @@ def speak_to_grandma
     puts "I LOVE YOU TOO PUMPKIN!"
   end
 end
+
+speak_to_grandma
